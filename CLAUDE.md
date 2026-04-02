@@ -23,7 +23,6 @@ Single-page React app with no routing, no backend, and no persistence — all st
 ```
 
 **Known issues (intentional for course exercises):**
-- `amount` is stored as a string, so `totalIncome`/`totalExpenses` use string concatenation instead of numeric addition — the summary cards show wrong values.
 - `Freelance Work` is typed as `"expense"` instead of `"income"` in the seed data.
 
 **Categories** are a hardcoded array: `["food", "housing", "utilities", "transport", "entertainment", "salary", "other"]`.
